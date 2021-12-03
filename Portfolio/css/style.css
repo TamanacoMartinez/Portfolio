@@ -1,0 +1,56 @@
+i {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  color: blue;
+}
+
+h1:hover {
+  color: yellow;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../media/desktop04.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+h4 {
+  font-size: 14px;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.dropdown-toggle {
+  padding-top: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: blue;
+}
+
+.navbar-dark .navbar-brand {
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */
