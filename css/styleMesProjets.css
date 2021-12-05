@@ -1,11 +1,6 @@
 @font-face {
-  font-family: William;
+  font-family: william;
   src: url(../fonts/william-narasi/William-Narasi.otf);
-}
-
-@font-face {
-  font-family: Daniel;
-  src: url(../fonts/daniel-davis/Daniel-Davis.ttf);
 }
 
 i {
@@ -22,16 +17,8 @@ body {
 
 h1, h3 {
   color: blue;
-  font-family: Daniel;
+  font-family: William;
   font-weight: 900;
-}
-
-h1 {
-  font-size: 6rem;
-}
-
-h3 {
-  font-size: 3rem;
 }
 
 h1:hover, h3:hover {
@@ -53,20 +40,16 @@ footer {
   align-items: center;
 }
 
-.piedDePage {
-  padding-bottom: 24px;
-}
-
 h3 {
-  font-family: Daniel;
+  font-family: William;
   font-weight: 900;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 14px;
   align-items: center;
-  padding-top: 2px;
-  font-family: Daniel;
+  padding-top: 8px;
+  font-family: William;
 }
 
 .dropdown-toggle {
@@ -75,14 +58,12 @@ h4 {
 
 .navbar-dark .navbar-nav .nav-link {
   color: blue;
-  font-size: 2rem;
-  font-family: William;
+  font-weight: 900;
 }
 
 .navbar-dark .navbar-brand {
   color: blue;
   font-family: William;
-  font-size: 2rem;
 }
 
 .photoPersonnelle {
@@ -94,8 +75,4 @@ hr {
   height: 10px;
   color: red;
 }
-
-a:hover {
-  text-decoration: none;
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styleMesProjets.css.map */
