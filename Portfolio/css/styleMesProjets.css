@@ -8,6 +8,21 @@
   src: url(../fonts/daniel-davis/Daniel-Davis.ttf);
 }
 
+@font-face {
+  font-family: eagle-lake;
+  src: url(../fonts/eagle-lake/EagleLake-Regular.ttf);
+}
+
+@font-face {
+  font-family: coneria-script;
+  src: url(../fonts/coneria-script/Demo_ConeriaScript.ttf);
+}
+
+@font-face {
+  font-family: Pink;
+  src: url(../fonts/all-things-pink/All-Things-Pink.ttf);
+}
+
 i {
   font-size: 2rem;
   font-weight: 400;
@@ -21,7 +36,6 @@ body {
 }
 
 h1, h3 {
-  color: blue;
   font-family: Daniel;
   font-weight: 900;
 }
@@ -30,12 +44,15 @@ h1 {
   font-size: 6rem;
 }
 
-h3 {
-  font-size: 3rem;
+h1:hover, h3:hover {
+  color: blue;
 }
 
-h1:hover, h3:hover {
-  color: yellow;
+h5 {
+  font-family: Daniel;
+  color: black;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 .parallax {
@@ -99,8 +116,32 @@ a:hover {
   text-decoration: none;
 }
 
+img {
+  border-style: solid;
+  color: black;
+  border-radius: 14px;
+}
+
 img:hover {
   border-style: solid;
-  color: blue;
+  color: yellow;
+}
+
+p {
+  font-family: Pink;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+a h1 {
+  color: black;
+}
+
+strong {
+  color: red;
+}
+
+.titreProjet:hover {
+  color: yellow;
 }
 /*# sourceMappingURL=styleMesProjets.css.map */
