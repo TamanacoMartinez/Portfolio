@@ -140,4 +140,14 @@ ul {
 a h1 {
   color: black;
 }
+
+.dropdown-menu {
+  background-color: grey;
+}
+
+.dropdown-item {
+  font-family: Pink;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
 /*# sourceMappingURL=style.css.map */

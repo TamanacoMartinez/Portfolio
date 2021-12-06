@@ -144,4 +144,14 @@ strong {
 .titreProjet:hover {
   color: yellow;
 }
+
+.dropdown-menu {
+  background-color: grey;
+}
+
+.dropdown-item {
+  font-family: Pink;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
 /*# sourceMappingURL=styleMesProjets.css.map */
